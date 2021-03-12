@@ -1,0 +1,26 @@
+body{
+   background-image: url('./fon.jpg');
+   color:white; 
+}
+h1{
+   text-align: center;
+}
+.df
+{
+   display: flex;
+   flex-wrap: wrap;
+}
+.pieChart_sector{
+   cursor: pointer;
+   transition: all 1s;
+}
+p{
+   font-size: 50px;
+   font-weight: 900;
+   margin: 0 10px;
+}
+main{
+   display: flex;
+flex-direction: column;
+align-items: center;
+}

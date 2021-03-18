@@ -15,7 +15,7 @@ export default class Sectors {
          const sector = this.getCoordinatesSector(x, y, valuesum);
          x = sector.x2;
          y = sector.y2;
-         return { ...sector, largeArcFlag: value <= this.valuesSum / 2 ? 0 : 1 };
+         return { ...sector, largeArcFlag: value <= this.valuesSum / 2 ? 0 : 1, radius: this.radius };
       })
    }
    getCoordinatesSector(x1 = 0, y1 = 0, value) {
